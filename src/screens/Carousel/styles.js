@@ -5,4 +5,6 @@ export const Wrapper = styled.View`
   justify-content: center;
   width: 100%;
   height: 100%;
+  flex-direction:column;
 `;
+
