@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {metrics} from '../../../utils'
 
 export const Wrapper = styled.View`
   width: 100%;
@@ -12,6 +13,6 @@ export const Title = styled.Text`
 `;
 
 export const Image = styled.Image`
-  height: 100px;
-  width: 100px;
+  height: ${metrics.hp(150)}px;
+  width: ${metrics.hp(100)}px;
 `;

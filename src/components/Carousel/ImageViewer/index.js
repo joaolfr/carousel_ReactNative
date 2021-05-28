@@ -13,8 +13,7 @@ const ImageViewer = ({index, currentPage, sliderData}) => {
             uri: `${item}`,
           }}
           />
-          ))
-          )}
+          )))}
     </Wrapper>
   );
 };
